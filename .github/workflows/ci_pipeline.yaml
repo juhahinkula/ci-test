@@ -9,6 +9,9 @@ on:
 jobs:
   Node-ci-pipeline:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      pages: write  
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
