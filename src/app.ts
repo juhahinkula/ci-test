@@ -7,7 +7,7 @@ app.use(express.json());
 const calculator = new Calculator();
 
 app.get('/', (req, res) => {
-  res.json({ message: "Calculator API is running" });
+  res.json({ message: 'Calculator API is running' });
 });
 
 app.post('/calculate', (req, res) => {
@@ -39,7 +39,7 @@ app.post('/calculate', (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 
 if (require.main === module) {
   app.listen(PORT, () => {
