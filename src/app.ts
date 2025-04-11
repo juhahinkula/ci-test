@@ -7,7 +7,7 @@ app.use(express.json());
 const calculator = new Calculator();
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Calculator API is running in Render' })
+  res.json({ message: 'Calculator API is running now in Render' });
 });
 
 app.post('/calculate', (req, res) => {
