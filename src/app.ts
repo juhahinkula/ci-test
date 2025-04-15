@@ -7,7 +7,7 @@ app.use(express.json());
 const calculator = new Calculator();
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Calculator API is running + new tag' });
+  res.json({ message: 'Calculator API is running' });
 });
 
 app.post('/calculate', (req, res) => {
