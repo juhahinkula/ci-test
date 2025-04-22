@@ -1,13 +1,13 @@
 # Node.js CI pipeline
-name: Node.js CI
+name: Node.js CI/CD
 
 on:
   push:
-    branches:
-      - main
-    tags:
-      - '*'
-
+    branches: [main]
+    tags: ['*']
+  pull_request:
+    branches: [main]
+ 
 jobs:
   Node-ci-pipeline:
     runs-on: ubuntu-latest
