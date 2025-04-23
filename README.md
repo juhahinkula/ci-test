@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/juhahinkula/ci-test/actions/workflows/ci_pipeline.yaml/badge.svg)](https://github.com/juhahinkula/ci-test/actions/workflows/ci_pipeline.yaml)
+
 ## Node.js Application for CI Training
 
 This repository is training on creating a CI pipeline using GitHub Actions.
